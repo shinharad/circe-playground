@@ -1,0 +1,10 @@
+curl -d '{"userName": "Alice"}' -H "Content-Type: application/json" -X POST http://localhost:8080/hello
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "userName": "Bob"
+}

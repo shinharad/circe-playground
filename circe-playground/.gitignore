@@ -1,0 +1,10 @@
+.DS_Store
+logs
+!.gitkeep
+
+.bloop/
+.idea/
+.metals/
+*.worksheet.sc
+metals.sbt
+target/

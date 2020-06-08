@@ -1,0 +1,6 @@
+{
+  "key1": "Alice from data.json",
+  "key2": 27,
+  "key3": true,
+  "key4-kebab-case": false
+}

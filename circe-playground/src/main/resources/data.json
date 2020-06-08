@@ -1,0 +1,26 @@
+{
+  "key1": "Alice from data.json",
+  "key2": 27,
+  "key3": true,
+  "key4": false,
+  "key5": null,
+  "key6": [
+    1,
+    3,
+    3,
+    7
+  ],
+  "key7": {
+    "key1": "I'm running out of examples",
+    "key2": "4567"
+  },
+  "key8": {
+    "key1": "I'm running out of examples",
+    "key2": 4567
+  },
+  "key9": "\uD83D\uDE3B",
+  "floating1": 0.123456789123456789,
+  "floating2": 0.123456789123456789,
+  "long1": 922337203574586123,
+  "long2": 922337203574586123
+}
