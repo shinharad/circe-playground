@@ -4,7 +4,7 @@ ThisBuild / scalaVersion     := "2.13.1"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
-ThisBuild / name             := "circe-codec-playground"
+ThisBuild / name             := "codec"
 
 ThisBuild / scalacOptions ++= Seq(
   "-deprecation",
