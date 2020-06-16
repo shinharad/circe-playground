@@ -3,7 +3,6 @@ import Dependencies._
 ThisBuild / organization := "com.myorganization"
 ThisBuild / scalaVersion := "2.13.2"
 ThisBuild / version := "0.0.1-SNAPSHOT"
-ThisBuild / name := "codec-fontend"
 
 ThisBuild / scalacOptions ++= Seq(
   "-deprecation",
@@ -20,7 +19,7 @@ lazy val `js-playground` =
     .in(file("."))
     .enablePlugins(ScalaJSPlugin)
     .settings(
-      name := "JS Playground",
+      name := "codec-fontend",
       scalaJSUseMainModuleInitializer := true)
     .settings(commonSettings: _*)
     .settings(dependencies: _*)

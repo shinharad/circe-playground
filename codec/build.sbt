@@ -4,7 +4,6 @@ ThisBuild / scalaVersion     := "2.13.1"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
-ThisBuild / name             := "codec"
 
 ThisBuild / scalacOptions ++= Seq(
   "-deprecation",
@@ -20,7 +19,7 @@ lazy val `circe-playground` =
   project
     .in(file("."))
     .settings(
-      name := "circe playground",
+      name := "codec",
       addCompilerPlugin(org.typelevel.`kind-projector`),
       libraryDependencies ++= Seq(
         "co.fs2" %% "fs2-core" % "2.2.2",

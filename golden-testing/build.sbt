@@ -3,7 +3,6 @@ import Dependencies._
 ThisBuild / organization := "com.myorganization"
 ThisBuild / scalaVersion := "2.13.2"
 ThisBuild / version := "0.0.1-SNAPSHOT"
-ThisBuild / name := "golden-testing"
 
 ThisBuild / scalacOptions ++= Seq(
   "-deprecation",
@@ -18,7 +17,7 @@ ThisBuild / scalacOptions ++= Seq(
 lazy val `golden-playground` =
   project
     .in(file("."))
-    .settings(name := "Golden Playground")
+    .settings(name := "golden-testing")
     .settings(commonSettings: _*)
     .settings(dependencies: _*)
 
