@@ -19,7 +19,7 @@ lazy val `js-playground` =
     .in(file("."))
     .enablePlugins(ScalaJSPlugin)
     .settings(
-      name := "codec-fontend",
+      name := "codec-frontend",
       scalaJSUseMainModuleInitializer := true)
     .settings(commonSettings: _*)
     .settings(dependencies: _*)
